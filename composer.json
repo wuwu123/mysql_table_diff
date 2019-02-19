@@ -1,0 +1,20 @@
+{
+    "name": "wujie/mysql_diff",
+    "description": "php mysql数据库差异",
+    "type": "project",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "武杰",
+            "email": "1224805548@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mysqldiff\\": "src/"
+        }
+    }
+}
